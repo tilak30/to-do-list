@@ -1,0 +1,97 @@
+.heading{
+    text-align: center;
+    text-shadow: 2px 2px 6px purple;
+    font-family: "Comic Sans MS", "cursive", "sans-serif";
+    font-size: 2.5em;
+    padding: 10px 20px 20px 20px;
+    animation-name: heading;
+    animation-duration: 5s;
+}
+.center{
+   max-width: 500px;
+   margin: auto;
+}
+.button{
+    background-color:chartreuse; 
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(3px);
+}
+    
+input[type=text] {
+  padding: 7px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+    background-color: bisque;
+}
+.inout{
+  padding-left: 65px;
+  background-color:cornsilk;
+}
+.list{
+    border: solid;
+    padding: 50px;
+}
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+ul{
+    list-style-type:none;
+}
+li{
+    border: 2px solid purple;
+    color:cadetblue;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 20px;
+	margin-bottom: 5px;
+    background-color:azure;
+    padding: 8px 3px 5px 20px;
+    height:35px;
+    font-family: "Comic Sans MS", "cursive", "sans-serif";
+    transition: font-size 0.5s ;
+}
+li:hover{
+    background-color:lightyellow;
+    font-size: 27px;
+}
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #025f70;
+	font-weight: 800;
+}
+.done {
+	background: #51DF70;
+	color: #00891E;
+    text-decoration: line-through;
+}
+.delete {
+	display: none;
+}
+.note{
+    font-size: 13px;
+}
+body{
+    background-image: linear-gradient(to right, red , yellow);
+}
